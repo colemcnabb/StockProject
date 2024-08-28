@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project provides a comprehensive analysis of the S&P 500, focusing on key metrics such market capitalization, trading volume and performance trends throughout the years. This project includes data cleaning, processing and visualization using Python and Tableau.
+This project provides a comprehensive analysis of the S&P 500, focusing on key metrics such market capitalization, trading volume and performance trends throughout the years. Also includes data cleaning, processing and visualization using Python and Tableau.
 
 ## Technical Stack
 
