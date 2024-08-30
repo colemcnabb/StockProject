@@ -7,7 +7,7 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 ## Technical Stack
 
 - **VS Code**: For data cleaning and processing
-- **Python**: Used for data maniplulation and processing (Pandas, NumPy)
+- **Python**: Used for data manipulation and processing (Pandas, NumPy)
 - **Tableau**: For creating interactive dashboards and visualization
 
 ## Data Sources
@@ -45,7 +45,7 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
      cd StockProject
 
 2. **Install Dependencies**:
-   - Ensure you have Python and the necessary libraries installed. Run the folloiwng command:
+   - Ensure you have Python and the necessary libraries installed. Run the following command:
      ```bash
      pip install pandas numpy
 
@@ -60,16 +60,25 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 The interactive dashboards created for this project can be accessed via Tableau Public:
 
    - [S&P 500 Leaders: Volume, Value and Performance Overview](https://public.tableau.com/views/StockProjectLeadersOverview/SP500LeadersVolumeValueandPerformanceOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-   - [S&P 500: Sector Analysis](https://public.tableau.com/views/StockProjectSectorAnalysis/SP500SectorAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+   - [S&P 500: Sector Analysis](https://public.tableau.com/shared/26Q2SZCQX?:display_count=n&:origin=viz_share_link)
    - [Comprehensive Analysis of S&P 500 Index Trends](https://public.tableau.com/views/StockProjectIndexTrends/ComprehensiveAnalysisofSP500IndexTrends?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
   
 ## Results and Insights
 
-The project reveals key insights regarding the S&P 500 Index, including trends in market capitalization, the relationship between trading volume and total traded value and sector performance
+**Top Performing Companies**: Identified the top 10 companies based on average closing price, with NVR, inc. (NVR) consistently leading since 2016
+
+**Sector Dominance**: The Technology sector dominates the S&P 500, accounting for over $13 trillion, making it the largest sector by a significant margin.  The next closest is Commnication Services with over 50% smaller market capitalization than the leader
+
+**Volume vs Value**: Noticed a strong correlation between value and volume traded, indicating that the most traded stocks are often also the most valuable
+
+**Index Performance Trends**: Steady upwards trend of the S&P 500 over the last decade, with significant growth from 2020-2021
+
+
+
 
 ## Future Projects
 
-Future projects of mine will be considerately more advanced and provide a more in-depth look at a variety of topics that interest me.  
+Future projects of mine will gradually become more advanced and provide an in-depth look at a variety of topics that interest me.  
 
 These projects will include the following: 
 
