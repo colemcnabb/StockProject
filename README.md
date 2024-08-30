@@ -55,8 +55,13 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
      python data_load.py
      python data_processing.py
 
-4. **View Dashboards**:
-   - Open the Tableau files in Tableau to view the interactive dashboards.
+4. **Interactive Visualizations**:
+
+The interactive dashboards created for this project can be accessed via Tableau Public:
+
+   - [S&P 500 Leaders: Volume, Value and Performance Overview](https://public.tableau.com/views/StockProjectLeadersOverview/SP500LeadersVolumeValueandPerformanceOverview?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+   - [S&P 500: Sector Analysis](https://public.tableau.com/views/StockProjectSectorAnalysis/SP500SectorAnalysis?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+   - [Comprehensive Analysis of S&P 500 Index Trends](https://public.tableau.com/views/StockProjectIndexTrends/ComprehensiveAnalysisofSP500IndexTrends?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
   
 ## Results and Insights
 
