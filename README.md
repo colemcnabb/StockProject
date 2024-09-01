@@ -18,11 +18,13 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 
 ## Project Structure
 
-- 'data_load.py': Script used to load and process the datasets.
-- 'data_processing.py': Script used for further data processing, including cleaning and preparation for analysis.
-- 'cleaned_stocks.csv': The cleaned dataset used for analysis and visualization.
-- 'cleaned_companies.xlsx': Processed data about S&P 500 companies, used for sector and industry analysis.
-- 'cleaned_index.xlsx': Index data relevant to the S&P 500, used for trend analysis.
+- `data_load.py`: Script used to load and process the datasets.
+- `data_processing.py`: Script used for further data processing, including cleaning and preparation for analysis.
+- `cleaned_stocks.csv`: The cleaned dataset used for analysis and visualization.<br>
+  **Note**: The full `cleaned_stocks.csv` dataset was used in the project but is not included in the repository due to file size constraints.
+- `cleaned_stocks_2022.csv`: A subset of the cleaned dataset used for analysis and visualization.
+- `cleaned_companies.xlsx`: Processed data about S&P 500 companies, used for sector and industry analysis.
+- `cleaned_index.xlsx`: Index data relevant to the S&P 500, used for trend analysis.
 - **Tableau Dashboards**: Three comprehensive dashboards created to visualize different aspects of the S&P 500 data.
 
 ## Dashboards
@@ -55,7 +57,10 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
      python data_load.py
      python data_processing.py
 
-4. **Interactive Visualizations**:
+4. **Review Processed Data**:
+   - After running the scripts, you can review the processed data files (`cleaned_stocks_2022.csv`, `cleaned_companies.xlsx`, `cleaned_index.xlsx`) in the `data/` directory.
+
+## Interactive Visualizations
 
 The interactive dashboards created for this project can be accessed via Tableau Public:
 
