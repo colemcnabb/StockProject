@@ -7,7 +7,7 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 ## Technical Stack
 
 - **VS Code**: Used for data cleaning and processing.
-- **Python**: Employed for data manipulation and processing using libraries such as Pandas and NumPy.
+- **Python**: Employed for data manipulation and processing using Pandas.
 - **Tableau**: Utilized for creating interactive dashboards and visualizations.
 
 ## Data Sources
