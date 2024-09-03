@@ -49,7 +49,7 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 2. **Install Dependencies**:
    - Ensure you have Python and the necessary libraries installed. Run the following command:
      ```bash
-     pip install pandas numpy
+     pip install pandas
 
 3. **Run the Scripts**:
    - Execute the Python scripts to load and process the data:
@@ -74,7 +74,7 @@ The interactive dashboards created for this project can be accessed via Tableau 
 
 **Sector Dominance**: The Technology sector dominates the S&P 500, accounting for over **$13 trillion** in market capitalization, making it the largest sector by a significant margin.  The next closest sector, Communication Services, has a market capitalization that is over 50% smaller, highlighting the overwhelming influence of the Technology sector in the index.
 
-**Volume vs Value**: A strong correlation was observed between trading volume and total traded value.  High-volume stocks such as **Tesla (TSLA)** and **Apple(AAPL)** command significant total traded values, reflecting both investor confidence alongside market impact. Conversely, stocks like **Ford (F)** show that high trading volume does not always equate to high traded value, particularly when the stock prices are lower.
+**Volume vs Value**: A strong correlation was observed between trading volume and total traded value.  High-volume stocks such as **Tesla (TSLA)** and **Apple (AAPL)** command significant total traded values, reflecting both investor confidence alongside market impact. Conversely, stocks like **Ford (F)** show that high trading volume does not always equate to high traded value, particularly when the stock prices are lower.
 
 **Index Performance Trends**: The S&P 500 has shown a steady upward trend over the last decade, with a large increase observed from 2020-2021. This reflects a period of rapid recovery and growth, driven by the post-pandemic market dynamics and the performance of leading technology companies.
 
