@@ -1,14 +1,19 @@
-# S&P 500 Analysis Project
+# S&P 500 Analysis (2010 - 2024)
 
 ## Project Overview
 
-This project provides a comprehensive analysis of the S&P 500, focusing on key metrics such market capitalization, trading volume and performance trends from 2010 - 2024. Also includes data cleaning, processing and visualization using Python and Tableau.
+This project provides a comprehensive analysis of the S&P 500, focusing on key metrics such market capitalization, trading volume and performance trends from 2010 - 2024.
+
+---
 
 ## Technical Stack
 
-- **VS Code**: Used for data cleaning and processing.
-- **Python**: Employed for data manipulation and processing using Pandas.
-- **Tableau**: Utilized for creating interactive dashboards and visualizations.
+| Stage          | Tool                                   |
+|----------------|----------------------------------------|
+| Data cleaning  | Python in VS Code                      |
+| Dashboards     | Tableau Public                         |
+
+---
 
 ## Data Sources
 
@@ -16,18 +21,9 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 - **Sector and Industry Data**: Information about sectors and industries within the S&P 500.
 - **Kaggle**: The datasets were retrieved from [Kaggle](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks)
 
-## Project Structure
+---
 
-- `data_load.py`: Script used to load and process the datasets.
-- `data_processing.py`: Script used for further data processing, including cleaning and preparation for analysis.
-- `cleaned_stocks.csv`: The cleaned dataset used for analysis and visualization.<br>
-  **Note**: The full `cleaned_stocks.csv` dataset was used in the project but is not included in the repository due to file size constraints.
-- `cleaned_stocks_2022.csv`: A subset of the cleaned dataset used for analysis and visualization.
-- `cleaned_companies.xlsx`: Processed data about S&P 500 companies, used for sector and industry analysis.
-- `cleaned_index.xlsx`: Index data relevant to the S&P 500, used for trend analysis.
-- **Tableau Dashboards**: Three comprehensive dashboards created to visualize different aspects of the S&P 500 data.
-
-## Dashboards
+## Tableau Dashboards
 
 1. **S&P 500 Leaders: Volume, Value and Performance Overview**
    - Showcases the leading companies by their yearly average closing prices, trading volume and total trade value.
@@ -37,29 +33,9 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
   
 3. **Comprehensive Analysis of S&P 500 Index Trends**
    - Displays an in-depth look at historical index performance, including rolling averages, monthly trends and the distribution of data points over time for clarity.
+
+---
   
-## How to Run the Project
-
-1. **Clone the Repository**:
-   - To get a copy of Stock Project, use the following command:
-     ```bash
-     git clone https://github.com/colemcnabb/StockProject.git
-     cd StockProject
-
-2. **Install Dependencies**:
-   - Ensure you have Python and the necessary libraries installed. Run the following command:
-     ```bash
-     pip install pandas
-
-3. **Run the Scripts**:
-   - Execute the Python scripts to load and process the data:
-     ```bash
-     python data_load.py
-     python data_processing.py
-
-4. **Review Processed Data**:
-   - After running the scripts, you can review the processed data files (`cleaned_stocks_2022.csv`, `cleaned_companies.xlsx`, `cleaned_index.xlsx`) in the `data/` directory.
-
 ## Interactive Visualizations
 
 The interactive dashboards created for this project can be accessed via Tableau Public:
@@ -82,18 +58,13 @@ The interactive dashboards created for this project can be accessed via Tableau 
 
 **Revenue Growth and EBITDA**: The **Technology** and **Healthcare** sectors exhibit the highest EBITDA values, indicating that strong revenue growth within these industries is often tied to significant profitability.  This suggests that companies within these sectors are efficiently converting their revenue growth into earnings, cementing themselves as dominant players within the S&P 500.
 
+---
 
-## Future Projects
+## Repository Structure
 
-Future projects of mine will gradually become more advanced and provide an in-depth look at a variety of topics that interest me.  
+data/     -> Raw and cleaned CSV/XLSX
+scripts/  -> data_load.py and data_processing.py
+img/      -> Dashboard preview PNGs
+README.md -> Project overview (this file)
 
-These projects will include the following:
 
-- **Expanded Analysis**: Additional analysis that includes more advanced statistical methods or machine learning models to uncover deeper insights from the data.
-- **Additional Visualizations**: Creation of more interactive and detailed visualizations that enhance the clarity and impact of the data being presented.
-- **Exploration of New Data Sources**: Integration of diverse data sources to analyze different industries, financial markets, or emerging trends, providing a broader perspective.
-- **Automation and Efficiency Improvements**: Development of scripts and tools to automate repetitive tasks, streamline data processing, and improve the overall efficiency of data analysis workflows.
-
-## Conclusion
-
-This project serves as a demonstration of my ability to handle, process and visualize data effectively using industry-standard tools and techniques. This foundational project is intended to showcase essential skills required for an Entry Level Data Analyst role.
