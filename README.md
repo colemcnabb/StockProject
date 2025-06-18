@@ -37,6 +37,19 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 
 ---
 
+## Dashboard Previews
+
+### Leaders Overview
+![S&P 500 Leaders](img/leaders.png)
+
+### Sector Analysis
+![Sector Breakdown](img/sector_analysis.png)
+
+### Index Trends
+![Index Performance](img/index_trends.png)
+
+---
+
 ## Key Findings
 
 - **Tech Dominance:** Sector now exceeds 30% of total index market cap.
