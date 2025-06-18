@@ -49,9 +49,8 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 
 ## Repository Structure
 
-- /data/     -> Raw and cleaned CSV/XLSX
-- /scripts/  -> data_load.py and data_processing.py
-- /img/      -> Dashboard preview PNGs
-- /README.md -> Project overview (this file)
-
+- /data/     → Raw and cleaned CSV/XLSX  
+- /scripts/  → data_load.py and data_processing.py  
+- /img/      → Dashboard preview PNGs  
+- /README.md → Project overview (this file)
 
