@@ -10,7 +10,7 @@ This project provides a comprehensive analysis of the S&P 500, focusing on key m
 
 | Stage          | Tool                                   |
 |----------------|----------------------------------------|
-| Data cleaning  | Python (in VS Code)                    |
+| Data cleaning  | Python                   |
 | Dashboards     | Tableau Public                         |
 
 ---
